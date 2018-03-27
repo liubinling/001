@@ -1,0 +1,4 @@
+FROM 192.168.0.29:5000/jdk:8
+COPY target/microservice-ui.jar /
+CMD ["java","-jar","/microservice-ui.jar"]
+

@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "description": " JSAQ frontend ",
+  "scripts": {
+    "dev": "epm-ui-boot-dev start",
+    "start": "epm-ui-boot-runtime-koa start",
+    "build": "epm-ui-boot-dev build",
+    "test": "jest"
+  },
+  "homepage": "http://www.bonc.com.cn",
+  "license": "SEE LICENSE IN <LICENSE>",
+  "private": true,
+  "devDependencies": {
+    "epm-ui": "0.4.37-alpha.2",
+    "epm-ui-boot-dev": "0.1.0-alpha.10",
+    "epm-ui-css": "^0.1.28-alpha.10",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0"
+  },
+  "dependencies": {
+    "epm-ui-boot-runtime-koa": "0.1.0-alpha.9",
+    "jquery": "^3.3.1",
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0"
+  }
+}

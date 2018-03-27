@@ -1,0 +1,10 @@
+/project/jsaq/.nb-gradle/
+/project/jsaq/build/
+/project/.DS_Store
+/project/frontend/.idea/
+
+# frontend
+.idea/
+node_modules/
+build/
+package-lock.json
